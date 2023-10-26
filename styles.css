@@ -1,0 +1,53 @@
+.slogan{
+    font-size:10px;
+}
+h1, p:first-of-type{
+    text-align: center;
+}
+body{
+    background-image: url("skincare.jpg");
+    background-size: cover;
+    width:70%;
+}
+.personal{
+    font-size: 20px;
+    font-family: Tahoma;
+    border: 4px solid #013220;
+}
+label{
+    display: block;
+    padding:0.5rem 0;
+    border-bottom:2px solid brown;
+    font-family: Times New Roman;
+}
+.survey{
+    border: 6px dotted #FF4500;
+}
+.feedback{
+    border-color: blue;
+    font-size: 20px;
+    font-family: Impact;
+}
+.header{
+    width:600px;
+    height:600px;
+    background-color: #800020;
+}
+#questionnaire{
+    font-size: 20px;
+    font-weight: 600;
+}
+#reason{
+    margin-top: 2rem;
+}
+#reset,#submit{
+    margin:2rem;
+}
+#reset{
+    border:2px dashed rgb(177, 44, 44);
+    margin-left: 0%;
+}
+#submit{
+    border:2px solid green;
+    padding: 0 2rem;
+}
